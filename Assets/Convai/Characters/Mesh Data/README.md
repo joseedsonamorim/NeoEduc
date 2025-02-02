@@ -1,1 +1,1 @@
-This folder will contain all the RPM character's Mesh Data
+Esta pasta conterá todos os dados de malha do personagem RPM
