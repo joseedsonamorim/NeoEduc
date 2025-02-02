@@ -862,6 +862,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Essentials - Mobile
       objectReference: {fileID: 0}
+    - target: {fileID: 333002171453628867, guid: 3f202eb6fe3075d4a8c8cd0278aa3975, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1454379175143412160, guid: 3f202eb6fe3075d4a8c8cd0278aa3975, type: 3}
       propertyPath: m_text
       value: "Apar\xEAncia"
@@ -869,6 +873,10 @@ PrefabInstance:
     - target: {fileID: 2379772022272031846, guid: 3f202eb6fe3075d4a8c8cd0278aa3975, type: 3}
       propertyPath: m_text
       value: "Notifica\xE7\xF5es"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2473876824967577232, guid: 3f202eb6fe3075d4a8c8cd0278aa3975, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3035289457863436778, guid: 3f202eb6fe3075d4a8c8cd0278aa3975, type: 3}
       propertyPath: m_text
@@ -907,12 +915,20 @@ PrefabInstance:
       value: Entrada de teste
       objectReference: {fileID: 0}
     - target: {fileID: 5992643438178453944, guid: 3f202eb6fe3075d4a8c8cd0278aa3975, type: 3}
+      propertyPath: subtitlePrefab
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5992643438178453944, guid: 3f202eb6fe3075d4a8c8cd0278aa3975, type: 3}
+      propertyPath: questionAnswerPrefab
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5992643438178453944, guid: 3f202eb6fe3075d4a8c8cd0278aa3975, type: 3}
       propertyPath: characters.Array.size
-      value: 6
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5992643438178453944, guid: 3f202eb6fe3075d4a8c8cd0278aa3975, type: 3}
       propertyPath: characters.Array.data[0].characterName
-      value: Mike Carter
+      value: NeoEduc
       objectReference: {fileID: 0}
     - target: {fileID: 5992643438178453944, guid: 3f202eb6fe3075d4a8c8cd0278aa3975, type: 3}
       propertyPath: characters.Array.data[1].characterName
@@ -937,7 +953,7 @@ PrefabInstance:
     - target: {fileID: 5992643438178453944, guid: 3f202eb6fe3075d4a8c8cd0278aa3975, type: 3}
       propertyPath: characters.Array.data[0].characterGameObject
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 6618000878684188922}
     - target: {fileID: 5992643438178453944, guid: 3f202eb6fe3075d4a8c8cd0278aa3975, type: 3}
       propertyPath: characters.Array.data[1].characterGameObject
       value: 
@@ -963,8 +979,12 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5992643438178453944, guid: 3f202eb6fe3075d4a8c8cd0278aa3975, type: 3}
+      propertyPath: characters.Array.data[0].characterTextColor.g
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5992643438178453944, guid: 3f202eb6fe3075d4a8c8cd0278aa3975, type: 3}
       propertyPath: characters.Array.data[0].characterTextColor.r
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5992643438178453944, guid: 3f202eb6fe3075d4a8c8cd0278aa3975, type: 3}
       propertyPath: characters.Array.data[1].characterTextColor.a
@@ -1081,6 +1101,9 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 7246624278128128122, guid: 3f202eb6fe3075d4a8c8cd0278aa3975, type: 3}
+    - {fileID: 383261623891186379, guid: 3f202eb6fe3075d4a8c8cd0278aa3975, type: 3}
+    - {fileID: 2024379788674423570, guid: 3f202eb6fe3075d4a8c8cd0278aa3975, type: 3}
+    - {fileID: 8599813985533123598, guid: 3f202eb6fe3075d4a8c8cd0278aa3975, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3f202eb6fe3075d4a8c8cd0278aa3975, type: 3}
