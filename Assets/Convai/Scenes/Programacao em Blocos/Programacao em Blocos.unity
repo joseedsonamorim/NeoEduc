@@ -1418,6 +1418,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Convai Essentials - Mobile
       objectReference: {fileID: 0}
+    - target: {fileID: 2613990260125937306, guid: 3f202eb6fe3075d4a8c8cd0278aa3975, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5404715717759932593, guid: 3f202eb6fe3075d4a8c8cd0278aa3975, type: 3}
       propertyPath: <ConvaiPlayerDataSO>k__BackingField
       value: 
@@ -1593,6 +1597,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 7246624278128128122, guid: 3f202eb6fe3075d4a8c8cd0278aa3975, type: 3}
+    - {fileID: 7270382047880329426, guid: 3f202eb6fe3075d4a8c8cd0278aa3975, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3f202eb6fe3075d4a8c8cd0278aa3975, type: 3}
