@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Convai/Demo/Scenes/Mobile/Convai Demo - Mobile.unity
+    path: Assets/Convai/Scenes/Mobile/Convai Demo - Mobile.unity
     guid: da9b5091fc7319b4abeaf460d0605d0e
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 289c1b55c9541489481df5cc06664110, type: 3}
