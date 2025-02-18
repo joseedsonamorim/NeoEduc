@@ -6,8 +6,26 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Convai/Scenes/Mobile/Convai Demo - Mobile.unity
-    guid: da9b5091fc7319b4abeaf460d0605d0e
+    path: Assets/Convai/Scenes/Impressao 3D/Impressao 3D.unity
+    guid: f2290b408c0dd4747bfe8d0cf5f8eba6
+  - enabled: 1
+    path: Assets/Convai/Scenes/Robotica/Robotica.unity
+    guid: 5b80deb47d58b4d65a18d79ff171e819
+  - enabled: 1
+    path: Assets/Convai/Scenes/Programacao em Blocos/Programacao em Blocos.unity
+    guid: f62448cc56080b044a1bef4169782895
+  - enabled: 1
+    path: Assets/Convai/Scenes/Arduino/Arduino.unity
+    guid: c11056734cf0e4dac99d556686154bbc
+  - enabled: 1
+    path: Assets/Convai/Scenes/Cortadora Laser/Cortadora Laser.unity
+    guid: 387f11a2063c041faa4ff6c77af7345f
+  - enabled: 1
+    path: Assets/UI/Scenes/Home.unity
+    guid: a3cdca1c4f370430e866362e064cc18c
+  - enabled: 1
+    path: Assets/UI/Scenes/Theme.unity
+    guid: 98e3c2cbc8f8d4fb4b88843032636866
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 289c1b55c9541489481df5cc06664110, type: 3}
   m_UseUCBPForAssetBundles: 0
