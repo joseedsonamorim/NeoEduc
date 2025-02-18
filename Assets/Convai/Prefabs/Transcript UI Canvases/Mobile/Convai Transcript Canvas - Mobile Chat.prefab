@@ -172,8 +172,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 63, y: 4}
-  m_SizeDelta: {x: 70, y: 70}
+  m_AnchoredPosition: {x: 106.70001, y: 2.5}
+  m_SizeDelta: {x: 70, y: 80}
   m_Pivot: {x: 1, y: 0.5}
 --- !u!222 &4769392325365434918
 CanvasRenderer:
@@ -196,7 +196,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.2509804}
+  m_Color: {r: 0.49411765, g: 0.73333335, b: 0.003921569, a: 0.2509804}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 105, y: 70, z: 100, w: 100}
   m_Maskable: 1
@@ -649,7 +649,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1065668013364794518, guid: 2a227c28daac328438a90156a33eda44, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1332244378739031441, guid: 2a227c28daac328438a90156a33eda44, type: 3}
       propertyPath: m_Pivot.x
@@ -691,17 +691,37 @@ PrefabInstance:
       propertyPath: m_Type
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2686446413546832550, guid: 2a227c28daac328438a90156a33eda44, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f166ecfff72b94624b8c9d1f6ec1ba71, type: 3}
+    - target: {fileID: 2686446413546832550, guid: 2a227c28daac328438a90156a33eda44, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2686446413546832550, guid: 2a227c28daac328438a90156a33eda44, type: 3}
+      propertyPath: m_Color.b
+      value: 0.7294118
+      objectReference: {fileID: 0}
+    - target: {fileID: 2686446413546832550, guid: 2a227c28daac328438a90156a33eda44, type: 3}
+      propertyPath: m_Color.g
+      value: 0.5882353
+      objectReference: {fileID: 0}
+    - target: {fileID: 2686446413546832550, guid: 2a227c28daac328438a90156a33eda44, type: 3}
+      propertyPath: m_Color.r
+      value: 0.02745098
+      objectReference: {fileID: 0}
     - target: {fileID: 3100320971183288749, guid: 2a227c28daac328438a90156a33eda44, type: 3}
       propertyPath: m_Value
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3464631238608500383, guid: 2a227c28daac328438a90156a33eda44, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3464631238608500383, guid: 2a227c28daac328438a90156a33eda44, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3464631238608500383, guid: 2a227c28daac328438a90156a33eda44, type: 3}
       propertyPath: m_AnchorMin.y
@@ -725,7 +745,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5071141999108799101, guid: 2a227c28daac328438a90156a33eda44, type: 3}
       propertyPath: m_fontSize
-      value: 33.45
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 5071141999108799101, guid: 2a227c28daac328438a90156a33eda44, type: 3}
       propertyPath: m_fontSizeBase
@@ -733,7 +753,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5071141999108799101, guid: 2a227c28daac328438a90156a33eda44, type: 3}
       propertyPath: m_enableAutoSizing
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5071141999108799101, guid: 2a227c28daac328438a90156a33eda44, type: 3}
       propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
@@ -821,7 +841,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6715891611321900906, guid: 2a227c28daac328438a90156a33eda44, type: 3}
       propertyPath: m_SizeDelta.x
-      value: -130
+      value: -180
       objectReference: {fileID: 0}
     - target: {fileID: 6715891611321900906, guid: 2a227c28daac328438a90156a33eda44, type: 3}
       propertyPath: m_SizeDelta.y
@@ -829,7 +849,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6715891611321900906, guid: 2a227c28daac328438a90156a33eda44, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -35
+      value: -60
       objectReference: {fileID: 0}
     - target: {fileID: 6715891611321900906, guid: 2a227c28daac328438a90156a33eda44, type: 3}
       propertyPath: m_AnchoredPosition.y
