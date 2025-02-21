@@ -16,10 +16,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Convai NPC NeoEduc
       objectReference: {fileID: 0}
-    - target: {fileID: 6900243388821908087, guid: a5ff99e80414d4467b38e2676463dbd5, type: 3}
-      propertyPath: m_TagString
-      value: Character
-      objectReference: {fileID: 0}
     - target: {fileID: 9182518415495871816, guid: a5ff99e80414d4467b38e2676463dbd5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

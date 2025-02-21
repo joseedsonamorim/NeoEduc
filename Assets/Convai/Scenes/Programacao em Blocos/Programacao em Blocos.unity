@@ -1418,6 +1418,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Convai Essentials - Mobile
       objectReference: {fileID: 0}
+    - target: {fileID: 350816138244255523, guid: 3f202eb6fe3075d4a8c8cd0278aa3975, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2473876824967577232, guid: 3f202eb6fe3075d4a8c8cd0278aa3975, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2613990260125937306, guid: 3f202eb6fe3075d4a8c8cd0278aa3975, type: 3}
       propertyPath: m_IsActive
       value: 0

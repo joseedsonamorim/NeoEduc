@@ -46,7 +46,7 @@ namespace Convai.Scripts.Runtime.Addons
             }
             catch (NullReferenceException)
             {
-                ConvaiLogger.DebugLog("No active NPC available for conversation", ConvaiLogger.LogCategory.UI);
+                ConvaiLogger.DebugLog("Nenhum NPC ativo disponível para conversa", ConvaiLogger.LogCategory.UI);
             }
         }
 #elif ENABLE_LEGACY_INPUT_MANAGER

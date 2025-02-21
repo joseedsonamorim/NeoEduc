@@ -15,21 +15,21 @@ namespace Convai.Scripts.Runtime.Addons
                 // Check the current internet reachability status
                 case NetworkReachability.NotReachable:
                     // If the device is not reachable over the internet, set debug text and send a notification.
-                    networkStatusDebugText = "Not Reachable";
+                    networkStatusDebugText = "Inacessível";
                     NotificationSystemHandler.Instance.NotificationRequest(NotificationType.NetworkReachabilityIssue);
                     break;
                 case NetworkReachability.ReachableViaCarrierDataNetwork:
                     // Reachable via mobile data network
-                    networkStatusDebugText = "Reachable via Carrier Data Network";
+                    networkStatusDebugText = "Acessível através da rede de dados da operadora";
                     break;
                 case NetworkReachability.ReachableViaLocalAreaNetwork:
                     // Reachable via local area network
-                    networkStatusDebugText = "Reachable via Local Area Network";
+                    networkStatusDebugText = "Acessível via rede local";
                     break;
             }
 
             // Log the network reachability status for debugging
-            ConvaiLogger.Info("Network Reachability: " + networkStatusDebugText, ConvaiLogger.LogCategory.Character);
+            ConvaiLogger.Info("Acessibilidade da rede: " + networkStatusDebugText, ConvaiLogger.LogCategory.Character);
         }
     }
 }
