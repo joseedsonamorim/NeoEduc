@@ -1,4 +1,4 @@
-# **Neo Educ – Assistente Virtual Educacional 🤖🎓**  
+# **NeoEduc – Assistente Virtual Educacional 🤖🎓**  
 
 Neo Educ é um NPC interativo desenvolvido com **ConvAI** e **Unity**, criado para atuar como um mentor digital em **UTECs**. Projetado para crianças de até 13 anos, ele ensina tecnologia de forma clara, envolvente e gamificada, tornando o aprendizado mais acessível e divertido! 🚀  
 
@@ -39,6 +39,26 @@ cd neo-educ
 
 ### 4️⃣ **Execute o Projeto**  
 - Inicie a cena principal no Unity e interaja com o **Neo Educ**! 🎮  
+
+---
+
+## 📱 Como Baixar e Instalar o APK 
+
+Se você deseja testar o aplicativo diretamente no seu dispositivo Android, siga os passos abaixo:
+
+1. *Baixe o APK.*
+O arquivo APK está disponível no repositório. Clique no link abaixo para baixá-lo:
+
+[📥 Baixar APK](https://drive.google.com/file/d/1m_shKMJ929SC2_bC2LBwWygzSfFfb7Ea/view?usp=sharing)
+
+  *2. Instale o APK*
+No seu dispositivo Android, vá até Configurações > Segurança e habilite a opção Fontes Desconhecidas para permitir a instalação de aplicativos fora da Play Store.
+
+Localize o arquivo APK baixado e toque nele para iniciar a instalação.
+Siga as instruções na tela para concluir a instalação.
+
+ *3. Execute o Aplicativo*
+Após a instalação, abra o aplicativo e comece a interagir com o Neo Educ!
 
 ---
 
